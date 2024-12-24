@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #3d0303;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navList {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navList li {
+    margin: 0 1rem;
+  }
+  
+  .navList a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navList a:hover {
+    text-decoration: underline;
+    color: darkgoldenrod;
+    background-color: whitesmoke;
+  }
